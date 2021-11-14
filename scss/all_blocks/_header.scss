@@ -1,0 +1,43 @@
+.header {
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15);
+    margin-bottom: 32px;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo-link {
+        display: inline-block;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    &__save-btn {
+        background: none;
+        outline: none;
+        border: none;
+        padding-right: 40px;
+    }
+
+    &__save-btn span {
+        padding-left: 10px;
+    }
+
+    &__account-btn {
+        border-radius: 65px;
+        
+    }
+}
+
+.hero {
+    &__btn {
+        border-radius: 65px !important;
+    }
+
+    &__bottom-list li {
+        padding-right: 10px;
+    }
+}

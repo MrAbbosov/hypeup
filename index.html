@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header__container container">
+            <a class="header__logo-link" href="./index.html">
+                <img src="./img/logo.svg" alt="site logo" width="110" height="32">
+            </a>
+            
+            <div class="header__right-side">
+                <button class="header__save-btn">
+                    <img src="./img/heart.svg" alt="" width="16" height="15">
+                    <span>Saved</span>
+                </button>
+                
+                <div class="btn-group">
+                    <button type="button" class="header__account-btn btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        abdulmaliikalandarov@gmail.com
+                    </button>
+                    
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Account</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Log out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <div class="hero__container container">
+                <ul class="hero__list nav nav-pills mb-4" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="hero__btn nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                            <img src="./img/instagram.svg" alt="" width="20" height="20">
+                            Instagram
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="hero__btn nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                            <img src="./img/tik.svg" alt="" width="20" height="20">
+                            TikTok
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="hero__btn nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                            <img src="./img/you.svg" alt="" width="20" height="20">
+                            YouTube
+                        </button>
+                    </li>
+                </ul>
+                <div class="input-group mb-3 rounded-pill">
+                    <input type="search" class="form-control" placeholder="Search influencers by name or category" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-primary" type="button" id="button-addon2">Search</button>
+                </div>
+
+                <ul class="hero__bottom-list d-flex mb-3">
+                    <li class="hero__bottom-item">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Followers</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                    </li>
+                    <li>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Location</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                    </li>
+                    <li>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Category</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                    </li>
+                    <li>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Engagement</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                    </li>
+                    <li>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Influencer type</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                    </li>
+                    <li>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Audience</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                    </li>
+                </ul>
+
+                
+                
+            </div>
+        </section>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active bg-light pt-3" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="container">
+                    <ul class="d-flex flex-wrap justify-content-between">
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-pane fade bg-light pt-3"" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="container">
+                    <ul class="d-flex flex-wrap justify-content-between">
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item2.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item2.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item2.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item2.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item2.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item2.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item2.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item2.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item2.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item2.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item2.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item2.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item2.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item2.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item2.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-pane fade bg-light pt-3"" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="container">
+                    <ul class="d-flex flex-wrap justify-content-between">
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item3.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item3.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item3.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item3.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item3.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item3.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item3.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item3.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item3.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item3.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item3.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item3.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item3.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item3.png" alt="">
+                            </a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">
+                                <img src="./img/item3.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+</html>
